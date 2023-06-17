@@ -1,5 +1,4 @@
-# Machine-Translation-Task---Finetune-T5
-
+# Machine-Translation-Task
 
 ## Description
 In this project, we implemented a machine translation model from German to English.
@@ -7,7 +6,7 @@ We were given train, validation, and test datasets of paragraphs in German and t
 **Our Goal** was to maximize the BLEU performance of the model on the validation and test sets.
 
 ## The Model
-We used a pre-trained T5-Base Model and made some preprocessing to the data, such that the prompt we sent to the model included the root and 2 of its modifiers of each sentence in English.
+We fine-tuned pre-trained T5-Base Model and made some preprocessing to the data, such that the prompt we sent to the model included the root and 2 of its modifiers of each sentence in English.
 ## How to run?
 ### main.py
 The file which does all of the heavy lifting is `main.py`.<br>
